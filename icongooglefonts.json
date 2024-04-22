@@ -1,90 +1,581 @@
 {
-    "inicio": "e88a",
-    "buscar": "e8b6",
-    "configuración": "e8b8",
-    "cuenta": "e853",
-    "notificaciones": "e7f4",
-    "correo": "e0be",
-    "chat": "e0b7",
-    "teléfono": "e0cd",
-    "calendario": "e878",
-    "editar": "e3c9",
-    "agregar": "e145",
-    "eliminar": "e872",
-    "guardar": "e161",
-    "imprimir": "e8ad",
-    "descargar": "e2c4",
-    "compartir": "e80d",
-    "favorito": "e89a",
-    "subir": "e5d8",
-    "descender": "e5db",
-    "reproducir": "e038",
-    "pausa": "e034",
-    "siguiente": "e045",
-    "anterior": "e048",
-    "menú": "e5d2",
-    "comentario": "e0b9",
-    "ver más": "e5cf",
-    "ver menos": "e5d0",
-    "último": "e5dd",
-    "primero": "e5de",
-    "volver principio": "e5d9",
-    "volver final": "e5da",
-    "volver": "e5c4",
-    "enlace": "e157",
-    "aviso": "e7f4",
-    "mensaje": "e0b7",
-    "reloj": "e878",
-    "número": "e8e1",
-    "mapa": "e55f",
-    "ubicación": "e0c8",
-    "pin": "e55a",
-    "código QR": "e2a9",
-    "carrito": "e8cc",
-    "pago": "e8fb",
-    "tarjeta de crédito": "e8ff",
-    "efectivo": "e850",
-    "cheque": "e8a1",
-    "transferencia": "e84d",
-    "paypal": "e923",
-    "moneda": "e227",
-    "dólar": "e24e",
-    "euro": "e24c",
-    "favoritos": "e89a",
-    "tachado": "e14c",
-    "marcador de posición": "e3f5",
-    "marcado": "e14f",
-    "gráfico": "e6e1",
-    "información": "e88e",
-    "advertencia": "e002",
-    "atrás": "e05c",
-    "desplegar": "e5d2",
-    "alinear a la izquierda": "e5d4",
-    "alinear a la derecha": "e5d3",
-    "alinear al centro": "e5d5",
-    "justificar": "e5d6",
-    "quitar formato": "e888",
-    "bloquear": "e869",
-    "cerrar": "e5cd",
-    "cerrar sesión": "e8ac",
-    "circuito": "e1cf",
-    "caja": "e88f",
-    "download": "e2c4",
-    "documento": "e24d",
-    "listo": "e876",
-    "impresión": "e8ad",
-    "lista": "e8fd",
-    "carpeta": "e2c7",
-    "más": "e5d0",
-    "eliminar fila": "e15d",
-    "eliminar columna": "e15e",
-    "añadir fila": "e15f",
-    "añadir columna": "e160",
-    "verificar": "e876",
-    "rechazar": "e5cd",
-    "error": "e000",
-    "soporte": "e887",
-    "pista": "e8a9",
-    "enviar": "e163",
-    "arroba": "e0e6"
+    "items": [
+        {
+            "name": "e88a",
+            "label": "Inicio",
+            "description": "Página principal o de inicio."
+        },
+        {
+            "name": "Configuración",
+            "label": "e8b8",
+            "description": "Ajustes o configuración del sistema."
+        },
+        {
+            "name": "Cuenta",
+            "label": "e853",
+            "description": "Información de la cuenta del usuario."
+        },
+        {
+            "name": "Notificaciones",
+            "label": "e7f4",
+            "description": "Mensajes o avisos para el usuario."
+        },
+        {
+            "name": "Correo",
+            "label": "e158",
+            "description": "Mensajes de correo electrónico."
+        },
+        {
+            "name": "Chat",
+            "label": "e0b7",
+            "description": "Conversaciones de chat."
+        },
+        {
+            "name": "Teléfono",
+            "label": "e0b0",
+            "description": "Funcionalidades relacionadas con llamadas telefónicas."
+        },
+        {
+            "name": "Calendario",
+            "label": "e878",
+            "description": "Calendario de eventos o citas."
+        },
+        {
+            "name": "Editar",
+            "label": "e3c9",
+            "description": "Modificar o ajustar información."
+        },
+        {
+            "name": "Agregar",
+            "label": "e145",
+            "description": "Incluir o añadir elementos."
+        },
+        {
+            "name": "Eliminar",
+            "label": "e872",
+            "description": "Quitar o borrar elementos."
+        },
+        {
+            "name": "Guardar",
+            "label": "e161",
+            "description": "Almacenar o conservar cambios."
+        },
+
+        
+            {
+                "name": "Imprimir",
+                "label": "e8ad",
+                "description": "Enviar el documento a una impresora para obtener una copia física."
+            },
+            {
+                "name": "Descargar",
+                "label": "f090",
+                "description": "Guardar el archivo en el dispositivo local desde el cual se accede."
+            },
+            {
+                "name": "Compartir",
+                "label": "e80d",
+                "description": "Enviar el contenido a otros usuarios o plataformas."
+            },
+            {
+                "name": "Favorito",
+                "label": "e8895",
+                "description": "Marcar como favorito o destacar para un acceso rápido."
+            },
+            {
+                "name": "Subir",
+                "label": "e5d8",
+                "description": "Transferir archivos o datos desde el dispositivo local a un servidor u otro dispositivo."
+            },
+            {
+                "name": "Descender",
+                "label": "e5db",
+                "description": "Moverse hacia abajo en una lista o en un documento."
+            },
+            {
+                "name": "Reproducir",
+                "label": "e083",
+                "description": "Iniciar la reproducción de contenido multimedia."
+            },
+            {
+                "name": "Pausa",
+                "label": "e034",
+                "description": "Detener temporalmente la reproducción de contenido multimedia."
+            },
+            {
+                "name": "Siguiente",
+                "label": "e045",
+                "description": "Ir al siguiente elemento en una lista o en la reproducción de contenido multimedia."
+            },
+            {
+                "name": "Anterior",
+                "label": "e048",
+                "description": "Ir al elemento anterior en una lista o en la reproducción de contenido multimedia."
+            },
+            {
+                "name": "Menu",
+                "label": "e5d2",
+                "description": "Acceder al menú de opciones o funciones disponibles."
+            },
+            {
+                "name": "Comentario",
+                "label": "e0b9",
+                "description": "Agregar un comentario o nota asociada al contenido."
+            },
+            {
+                "name": "Ver Mas",
+                "label": "e5cf",
+                "description": "Expandir o mostrar más contenido."
+            },
+            {
+                "name": "Ver Menos",
+                "label": "e5d0",
+                "description": "Contraer o mostrar menos contenido."
+            },
+            {
+                "name": "Ultimo",
+                "label": "e5dd",
+                "description": "Ir al último elemento en una lista o en una secuencia."
+            },
+            {
+                "name": "Primero",
+                "label": "e5de",
+                "description": "Ir al primer elemento en una lista o en una secuencia."
+            },
+            {
+                "name": "Volver principio",
+                "label": "e5d9",
+                "description": "Regresar al inicio del contenido o la página."
+            },
+            {
+                "name": "Volver final",
+                "label": "e5da",
+                "description": "Ir al final del contenido o la página."
+            },
+                
+
+                {
+                    "name": "Volver",
+                    "label": "e5c4",
+                    "description": "Regresar a la pantalla o página anterior."
+                },
+                {
+                    "name": "Enlace",
+                    "label": "e157",
+                    "description": "Hipervínculo o referencia a otro recurso en línea."
+                },
+                {
+                    "name": "Aviso",
+                    "label": "e7f4",
+                    "description": "Mensaje informativo o de advertencia para el usuario."
+                },
+                {
+                    "name": "Mensaje",
+                    "label": "e0b7",
+                    "description": "Conversación de texto o intercambio de mensajes."
+                },
+                {
+                    "name": "Reloj",
+                    "label": "e878",
+                    "description": "Indicación del tiempo o función de alarma."
+                },
+                {
+                    "name": "Numero",
+                    "label": "e8e1",
+                    "description": "Representación numérica o campo para ingresar números."
+                },
+                {
+                    "name": "Mapa",
+                    "label": "e55f",
+                    "description": "Visualización cartográfica de una ubicación geográfica."
+                },
+                {
+                    "name": "Ubicacion",
+                    "label": "e0c8",
+                    "description": "Posición geográfica o coordenadas de un lugar."
+                },
+                {
+                    "name": "Pin",
+                    "label": "e55a",
+                    "description": "Marcador de posición en un mapa o en una ubicación específica."
+                },
+                {
+                    "name": "Codigo QR",
+                    "label": "e2a9",
+                    "description": "Código de barras bidimensional para el escaneo rápido de información."
+                },
+                {
+                    "name": "Carrito",
+                    "label": "e8cc",
+                    "description": "Contenedor virtual para artículos seleccionados para la compra."
+                },
+                {
+                    "name": "Pago",
+                    "label": "e8fb",
+                    "description": "Proceso de transacción monetaria para adquirir bienes o servicios."
+                },
+                {
+                    "name": "Tarjeta de credito",
+                    "label": "e8ff",
+                    "description": "Medio de pago electrónico vinculado a una línea de crédito."
+                },
+                {
+                    "name": "Efectivo",
+                    "label": "e850",
+                    "description": "Dinero en efectivo, moneda física."
+                },
+                {
+                    "name": "Cheque",
+                    "label": "e8a1",
+                    "description": "Documento bancario que ordena el pago de una suma específica."
+                },
+                {
+                    "name": "Transferencia",
+                    "label": "e84d",
+                    "description": "Movimiento de fondos de una cuenta a otra, generalmente entre diferentes instituciones financieras."
+                },
+                {
+                    "name": "Paypal",
+                    "label": "e923",
+                    "description": "Plataforma de pago en línea."
+                },
+                {
+                    "name": "Moneda",
+                    "label": "e227",
+                    "description": "Unidad de dinero utilizada en un país o región."
+                },
+                {
+                    "name": "Dolar",
+                    "label": "e24e",
+                    "description": "Moneda oficial de los Estados Unidos de América."
+                },
+                {
+                    "name": "Euro",
+                    "label": "e24c",
+                    "description": "Moneda oficial de la Unión Europea."
+                },
+                {
+                    "name": "Favoritos",
+                    "label": "e89a",
+                    "description": "Elementos marcados como preferidos para un acceso rápido."
+                },
+                {
+                    "name": "Tachado",
+                    "label": "e14c",
+                    "description": "Texto o elemento visual con una línea horizontal sobre él, indicando que está tachado o descontinuado."
+                },
+                {
+                    "name": "Marcador de Posicion",
+                    "label": "e3f5",
+                    "description": "Símbolo o indicador visual utilizado para marcar una posición o ubicación específica."
+                },
+                {
+                    "name": "Marcado",
+                    "label": "e14f",
+                    "description": "Destacar o resaltar un elemento específico."
+                },
+                {
+                    "name": "Grafico",
+                    "label": "e6e1",
+                    "description": "Representación visual de datos o información."
+                },
+                {
+                    "name": "Informacion",
+                    "label": "e88e",
+                    "description": "Datos o detalles relevantes sobre un tema específico."
+                },
+                {
+                    "name": "Advertencia",
+                    "label": "e002",
+                    "description": "Mensaje que indica una situación peligrosa o importante."
+                },
+                {
+                    "name": "Atras",
+                    "label": "e05c",
+                    "description": "Retroceder a una pantalla o página anterior."
+                },
+                {
+                    "name": "Desplegar",
+                    "label": "e5d2",
+                    "description": "Mostrar o expandir contenido oculto."
+                },
+                {
+                    "name": "Alinear a la Izquierda",
+                    "label": "e5d4",
+                    "description": "Ajustar el contenido para que esté alineado a la izquierda."
+                },
+            
+
+    {
+        "name": "Alinear a la Derecha",
+        "label": "e5d3",
+        "description": "Ajustar el contenido para que esté alineado a la derecha."
+    },
+    {
+        "name": "Alinear al centro",
+        "label": "e5d5",
+        "description": "Ajustar el contenido para que esté alineado al centro."
+    },
+    {
+        "name": "Justificar",
+        "label": "e5d6",
+        "description": "Alinear el contenido de manera que esté justificado en ambos lados."
+    },
+    {
+        "name": "Quitar Formato",
+        "label": "e888",
+        "description": "Eliminar cualquier formato aplicado al texto o elemento seleccionado."
+    },
+    {
+        "name": "Bloquear",
+        "label": "e869",
+        "description": "Impedir cambios o modificaciones en el contenido."
+    },
+    {
+        "name": "Cerrar",
+        "label": "e5cd",
+        "description": "Finalizar o salir de una ventana, diálogo o aplicación."
+    },
+    {
+        "name": "Cerrar Sesion",
+        "label": "e8ac",
+        "description": "Terminar la sesión actual del usuario."
+    },
+    {
+        "name": "Circuito",
+        "label": "e1cf",
+        "description": "Diagrama o esquema de un circuito eléctrico."
+    },
+    {
+        "name": "Caja",
+        "label": "e88f",
+        "description": "Contenedor rectangular para guardar o contener objetos."
+    },
+    {
+        "name": "Descargar",
+        "label": "e2c4",
+        "description": "Guardar el archivo en el dispositivo local desde el cual se accede."
+    },
+    {
+        "name": "Documento",
+        "label": "e24d",
+        "description": "Archivo o registro que contiene información escrita o digital."
+    },
+    {
+        "name": "Listo",
+        "label": "e876",
+        "description": "Finalizar una acción o proceso."
+    },
+    {
+        "name": "Lista",
+        "label": "e8fd",
+        "description": "Colección de elementos organizados en orden secuencial."
+    },
+    {
+        "name": "Carpeta",
+        "label": "e2c7",
+        "description": "Contenedor utilizado para organizar y almacenar archivos y documentos relacionados."
+    },
+    {
+        "name": "Mas",
+        "label": "e5d0",
+        "description": "Mostrar más elementos o contenido."
+    },
+    {
+        "name": "Eliminar Fila",
+        "label": "e15d",
+        "description": "Quitar una fila de una tabla o una estructura similar."
+    },
+    {
+        "name": "Eliminar Columna",
+        "label": "e15e",
+        "description": "Quitar una columna de una tabla o una estructura similar."
+    },
+    {
+        "name": "Añadir Fila",
+        "label": "e15f",
+        "description": "Agregar una fila a una tabla o una estructura similar."
+    },
+    {
+        "name": "Añadir Columna",
+        "label": "e160",
+        "description": "Agregar una columna a una tabla o una estructura similar."
+    },
+    {
+        "name": "Verificar",
+        "label": "e876",
+        "description": "Confirmar o validar una acción."
+    },
+    {
+        "name": "Rechazar",
+        "label": "e5cd",
+        "description": "No aceptar una acción o solicitud."
+    },
+    {
+        "name": "Error",
+        "label": "e000",
+        "description": "Indicación de que algo ha salido mal o no se ha podido completar correctamente."
+    },
+    {
+        "name": "Soporte",
+        "label": "e887",
+        "description": "Asistencia técnica o ayuda proporcionada a los usuarios."
+    },
+    {
+        "name": "Pista",
+        "label": "e8a9",
+        "description": "Sugerencia o indicación sobre cómo proceder o resolver un problema."
+    },
+    {
+        "name": "Enviar",
+        "label": "e163",
+        "description": "Transferir o enviar información o datos a otro destinatario."
+    },
+    {
+        "name": "Arroba",
+        "label": "e0e6",
+        "description": "Símbolo '@' utilizado en direcciones de correo electrónico y en algunas redes sociales para mencionar a otros usuarios."
+    },
+
+    {
+        "name": "Ayuda",
+        "label": "e887",
+        "description": "Acceder a la sección de ayuda o soporte técnico para obtener asistencia."
+    },
+    {
+        "name": "Cámara",
+        "label": "e8f7",
+        "description": "Activar la cámara para tomar fotografías o grabar vídeos."
+    },
+    {
+        "name": "Micrófono",
+        "label": "e8f9",
+        "description": "Activar el micrófono para grabar audio o realizar llamadas de voz."
+    },
+    {
+        "name": "Lápiz",
+        "label": "e3c9",
+        "description": "Herramienta para dibujar, escribir o editar contenido de forma manual."
+    },
+    {
+        "name": "Calculadora",
+        "label": "e8ff",
+        "description": "Acceder a una herramienta de cálculo para realizar operaciones matemáticas."
+    },
+    {
+        "name": "Nube",
+        "label": "e2c2",
+        "description": "Representación visual de almacenamiento en la nube o acceso a servicios en línea."
+    },
+    {
+        "name": "Candado",
+        "label": "e897",
+        "description": "Indicación de seguridad o protección de datos."
+    },
+    {
+        "name": "Lupa",
+        "label": "e8b6",
+        "description": "Ampliar o buscar contenido con más detalle."
+    },
+    {
+        "name": "Herramientas",
+        "label": "e8b0",
+        "description": "Acceder a un conjunto de herramientas o funciones adicionales."
+    },
+    {
+        "name": "Alarma",
+        "label": "e855",
+        "description": "Configurar una alarma para recibir avisos en momentos específicos."
+    },
+    {
+        "name": "Círculo",
+        "label": "e6ac",
+        "description": "Representación gráfica de un círculo."
+    },
+    {
+        "name": "Cuadrado",
+        "label": "e3f3",
+        "description": "Representación gráfica de un cuadrado."
+    },
+    {
+        "name": "Triángulo",
+        "label": "e8d4",
+        "description": "Representación gráfica de un triángulo."
+    },
+    {
+        "name": "Estrella",
+        "label": "e8d6",
+        "description": "Símbolo gráfico que representa una estrella."
+    },
+    {
+        "name": "Corazón",
+        "label": "e87a",
+        "description": "Símbolo gráfico que representa un corazón."
+    },
+    {
+        "name": "Reloj de Arena",
+        "label": "e2b2",
+        "description": "Representación gráfica de un reloj de arena."
+    },
+    {
+        "name": "Reloj de Pared",
+        "label": "e927",
+        "description": "Representación gráfica de un reloj de pared."
+    },
+    {
+        "name": "Wifi",
+        "label": "e63e",
+        "description": "Indicación de disponibilidad de conexión inalámbrica Wi-Fi."
+    },
+    {
+        "name": "Bluetooth",
+        "label": "e1a5",
+        "description": "Indicación de disponibilidad de conexión Bluetooth."
+    },
+    {
+        "name": "USB",
+        "label": "e1e0",
+        "description": "Conector USB o indicación de dispositivos USB."
+    },
+
+    {
+        "name": "e8b9",
+        "label": "Ajustes Avanzados",
+        "description": "Acceso a configuraciones avanzadas o de nivel experto."
+    },
+    
+    {
+        "name": "e8d3",
+        "label": "Compra Segura",
+        "description": "Indicación de una transacción segura o protegida."
+    },
+    
+    {
+        "name": "e8d2",
+        "label": "Comunicación Segura",
+        "description": "Indicación de una conexión de comunicación segura o cifrada."
+    },
+
+    {
+        "name": "e0a3",
+        "label": "Redes Sociales",
+        "description": "Acceso a redes sociales o plataformas de medios sociales."
+    },
+    
+    {
+        "name": "e8e8",
+        "label": "Seguridad",
+        "description": "Indicación de medidas de seguridad o protección."
+    },
+    
+    {
+        "name": "e8aa",
+        "label": "Visión Nocturna",
+        "description": "Activar el modo de visión nocturna o de baja luminosidad."
+    }
+    
+    
+
+    ]
 }
+
